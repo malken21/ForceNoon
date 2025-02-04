@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "force_noon",
+  "version": "${version}",
+  "name": "ForceNoon",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/force_noon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "marumasa.force_noon.client.ForceNoonClient"
+    ],
+    "main": [
+      "marumasa.force_noon.ForceNoon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
