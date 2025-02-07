@@ -13,5 +13,6 @@ class ForceNoon : ModInitializer {
     companion object {
         val LOGGER: Logger = LogUtils.getLogger()
         const val MOD_ID: String = "force_noon"
+        val CONFIG: Config = Config()
     }
 }
